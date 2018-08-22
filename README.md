@@ -120,6 +120,7 @@ restart hadoop and restart impala
 ![Image](../master/screenshots/impala-error.png?raw=true)
 Impala rely on Cloudrea Hbase Jar ,please use relevant jar.
 Download relevant jar from https://repository.cloudera.com/artifactory/cloudera-repos/org/apache/hbase/
+
 Jar list as below:
 ```
 hbase-annotations-1.2.0-cdh5.15.0.jar
@@ -181,9 +182,12 @@ ln -s /usr/hdp/2.6.5.0-292/hive-hcatalog/share/hcatalog/hive-hcatalog-server-ext
 ln -s /usr/hdp/2.6.5.0-292/hive/lib/hive-cli.jar hive-cli.jar
 ```
 
+
 ## Impala-shell test:
 - Test whether impala is available.
 ![Image](../master/screenshots/impala-shell.png?raw=true)
+
+
 
 
 
