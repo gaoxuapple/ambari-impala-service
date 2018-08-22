@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<configuration>
+
+    <property>
+        <name>impala_log_dir</name>
+        <value>/var/log/impala</value>
+        <description>impala Log dir</description>
+    </property>
+	
+	<property>
+        <name>impala_scratch_dir</name>
+        <value>/tmp/impala_scratch</value>
+        <description>impala scratch dir</description>
+    </property>
+	
+	<property>
+        <name>mem_limit</name>
+        <value>20gb</value>
+        <description>memory limit . etc 70%,10mb,10gb,10tb</description>
+    </property>
+
+    <property>
+        <name>impala_user</name>
+        <value>impala</value>
+        <property-type>USER</property-type>
+        <description>User impala catalog/state-store/daemon runs as</description>
+    </property>
+
+    <property>
+        <name>impala_group</name>
+        <value>hadoop</value>
+        <property-type>GROUP</property-type>
+        <description>impala group</description>
+    </property>
+	
+	
+
+</configuration>
